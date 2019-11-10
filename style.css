@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 body {
@@ -9,27 +11,40 @@ body {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,48,78,0.86) 37%, rgba(0,212,255,1) 100%); 
     line-height: 1.3em;
 }
-div.body {
+#body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
 
-div.main-field {
-    width: 70%;
-    margin: 15px 15px auto 0px;
-    padding: 25px;
-    text-align: left;
-    background-color:whitesmoke;
+#left-side {
+    display: flex;
+    flex-direction: column;
+    width: 14%;
+    align-items: center;
 }
 
-div.nav {
-    /* position: absolute; */
-    width: 10%;
+#nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 8%;
     margin: 15px 10px auto 10px;
     padding: 20px;
     line-height: 1.6em;
     background-color: whitesmoke;
+}
+
+.nav-link {
+
+}
+
+#main-field {
+    width: 70%;
+    margin: 15px 15px auto 0px;
+    padding: 25px 10%;
+    text-align: left;
+    background-color:whitesmoke;
 }
 
 a {
@@ -37,8 +52,14 @@ a {
     color: rgb(49, 81, 129);
 }
 
-h1, h2 {
+h1 {
     text-align: center;
+    font-size: 30px;
+} 
+
+h2 {
+    text-align: center;
+    font-size: 25px;
 }
 
 p.img, p.img1 {
@@ -55,6 +76,10 @@ ul {
 
 .project-link{
     padding-left: 100px;
+}
+
+#request {
+    width: 90%;
 }
 
 #result {
@@ -74,6 +99,10 @@ ul {
 }
 
 @media (min-width: 415px) and (max-width: 1000px){
+    * {
+        padding: 0;
+        margin: 0;
+    }
 
 }
 
