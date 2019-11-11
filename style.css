@@ -14,14 +14,12 @@ body {
 #body {
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-start; */
 }
 
 #left-side {
     display: flex;
     flex-direction: column;
     width: 12vw;
-    /* padding-right: 1vw; */
     align-items: center;
 }
 
@@ -47,11 +45,81 @@ body {
 }
 
 #main-field {
+    display: flex;
+    flex-direction: column;
     width: 70%;
     margin: 15px 15px auto 15px;
     padding: 25px 10%;
     text-align: left;
     background-color:whitesmoke;
+}
+
+#mf-top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 10%;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+#mf-bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#mfb-top {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    height: 100%;
+    height: 402px;
+}
+
+#mfbt-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+#mfbt-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+#mfb-bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#mfbb-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#mfbb-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#comptia-logos {
+    width: 75%;
+}
+
+#wd-logos {
+    width: 75%;
 }
 
 a {
@@ -161,7 +229,6 @@ ul {
         flex-direction: row;
         width: 100vw;
         height: 5vh;
-        /* align-items: center; */
         align-content: center;
     }
 
