@@ -14,13 +14,14 @@ body {
 #body {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
 }
 
 #left-side {
     display: flex;
     flex-direction: column;
-    width: 14%;
+    width: 12vw;
+    /* padding-right: 1vw; */
     align-items: center;
 }
 
@@ -28,9 +29,9 @@ body {
     position: fixed;
     display: flex;
     flex-direction: column;
-    width: 8%;
-    margin: 15px 10px auto 10px;
-    padding: 20px;
+    width: 10vw;
+    margin: 15px 1vw auto 10px;
+    padding: 15px 5px 15px 30px;
     line-height: 1.6em;
     background-color: whitesmoke;
 }
@@ -42,11 +43,12 @@ body {
 #right-side {
     display: flex;
     flex-direction: row;
+    width: 86vw;
 }
 
 #main-field {
     width: 70%;
-    margin: 15px 15px auto 0px;
+    margin: 15px 15px auto 15px;
     padding: 25px 10%;
     text-align: left;
     background-color:whitesmoke;
@@ -67,12 +69,17 @@ h2 {
     font-size: 25px;
 }
 
-p.img, p.img1 {
+p.img1 {
     text-align: center;
 }
 
 ul {
     padding: 5px 30px;
+}
+
+.thumbNail {
+    width: 25%;
+    align-self: center;
 }
 
 .thumbNail:hover {
@@ -116,7 +123,6 @@ ul {
         flex-direction: row;
         width: 100vw;
         height: 5vh;
-        /* align-items: center; */
         align-content: center;
     }
 
@@ -139,46 +145,15 @@ ul {
         width: 90%;
         margin: 10%;
     }
-
 }
 
 @media (max-width: 500px){
-/* 
-    #body {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        align-content: center;
-    }
 
-    #left-side {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        height: 5vh;
-        align-content: center;
-    }
-
-    #nav {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 3vh;
-        justify-content: space-evenly;
-        background-color: whitesmoke;
-    }
-
-    #right-side {
-
-    }
-
-    #main {
-        width: 90vw;
-    } */
     #body {
         width: 100vw;
         flex-direction: column;
         align-items: center;
+        margin: 0;
     }
 
     #left-side {
@@ -211,5 +186,7 @@ ul {
         margin: 10%;
     }
 
-
+    .project-link {
+        padding-left: 0;
+    }
 }
