@@ -7,8 +7,8 @@
 
 // 
 
-document.querySelectorAll('.img > img').forEach(function (pic){
-    const thing = document.querySelector('.img');
+document.querySelectorAll('.thumbNail').forEach(function (pic){
+    const thing = document.querySelector('ul');
     // console.log(thing)
     // const picInfo = document.querySelector('.img').innerHTML;
     // console.log(picInfo);

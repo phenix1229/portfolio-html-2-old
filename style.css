@@ -39,6 +39,11 @@ body {
 
 }
 
+#right-side {
+    display: flex;
+    flex-direction: row;
+}
+
 #main-field {
     width: 70%;
     margin: 15px 15px auto 0px;
@@ -98,34 +103,113 @@ ul {
     align-content: center;
 }
 
-@media (min-width: 415px) and (max-width: 1000px){
-    * {
-        padding: 0;
+@media (min-width: 501px) and (max-width: 1100px){
+
+    #body {
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #left-side {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 5vh;
+        /* align-items: center; */
+        align-content: center;
+    }
+
+    #nav {
         margin: 0;
+        flex-direction: row;
+        width: 100%;
+        height: 3vh;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #right-side {
+        display: flex;
+        width: 100vw;
+        align-items: center;
+    }
+
+    #main-field {
+        width: 90%;
+        margin: 10%;
     }
 
 }
 
-@media (max-width: 414px){
-    * {
-        padding: 0;
-        margin: 0;
-    }
+@media (max-width: 500px){
+/* 
     #body {
         display: flex;
         flex-direction: column;
-        /* width: 100vw; */
-        align-items: center;
+        width: 100vw;
+        align-content: center;
+    }
+
+    #left-side {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 5vh;
+        align-content: center;
     }
 
     #nav {
-        width: 90vw;
-        height: 10%;
-        text-align: center;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 3vh;
+        justify-content: space-evenly;
         background-color: whitesmoke;
+    }
+
+    #right-side {
+
     }
 
     #main {
         width: 90vw;
+    } */
+    #body {
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
     }
+
+    #left-side {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 5vh;
+        /* align-items: center; */
+        align-content: center;
+    }
+
+    #nav {
+        margin: 0;
+        padding-left: 0;
+        flex-direction: row;
+        width: 100%;
+        height: 3vh;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #right-side {
+        display: flex;
+        width: 100vw;
+        align-items: center;
+    }
+
+    #main-field {
+        width: 90%;
+        margin: 10%;
+    }
+
+
 }
