@@ -34,10 +34,6 @@ body {
     background-color: whitesmoke;
 }
 
-.nav-link {
-
-}
-
 #right-side {
     display: flex;
     flex-direction: row;
@@ -76,8 +72,6 @@ body {
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
-    height: 100%;
-    height: 402px;
 }
 
 #mfbt-left {
@@ -122,6 +116,14 @@ body {
     width: 75%;
 }
 
+#tci-logo {
+    width: 75%;
+}
+
+#ci-logo {
+    width: 75%;
+}
+
 a {
     text-decoration: none;
     color: rgb(49, 81, 129);
@@ -138,6 +140,10 @@ h2 {
 }
 
 p.img1 {
+    text-align: center;
+}
+
+p.img {
     text-align: center;
 }
 
@@ -211,7 +217,21 @@ ul {
 
     #main-field {
         width: 90%;
-        margin: 10%;
+        margin: 5%;
+
+    }
+
+    #index-top {
+        width: 100%;
+    }
+
+    #index-bottom {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #request {
+        width: 100%;
     }
 }
 
@@ -222,6 +242,7 @@ ul {
         flex-direction: column;
         align-items: center;
         margin: 0;
+        padding: 0;
     }
 
     #left-side {
@@ -229,31 +250,87 @@ ul {
         flex-direction: row;
         width: 100vw;
         height: 5vh;
+        margin: 0;
         align-content: center;
     }
 
     #nav {
         margin: 0;
-        padding-left: 0;
+        padding: 0;
         flex-direction: row;
-        width: 100%;
-        height: 3vh;
+        width: 100vw;
+        height: 5vh;
         justify-content: space-around;
         align-items: center;
     }
 
     #right-side {
         display: flex;
-        width: 100vw;
+        flex-direction: column;
+        width: 100%;
         align-items: center;
     }
 
     #main-field {
-        width: 90%;
-        margin: 10%;
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    #mf-bottom {
+        justify-content: start;
+    }
+
+    #mfb-top {
+        margin: 0;
+        padding: 0;
+    }
+
+    #mfbt-left {
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+
+    #mfbt-right {
+        display: none;
+    }
+
+    #mfb-bottom {
+        margin: 0;
+        padding: 0;
+    }
+
+    #mfbb-left {
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+
+    #mfbb-right {
+        display: none;
     }
 
     .project-link {
         padding-left: 0;
+    }
+
+    #index-top {
+        width: 100%;
+    }
+
+    #index-bottom {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    #project-top {
+        width: 100%;
+    }
+
+    #project-bottom {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
     }
 }
