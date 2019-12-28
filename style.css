@@ -8,7 +8,7 @@
 body {
     /* background-color: rgb(26, 48, 78); */
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,48,78,0.86) 37%, rgba(0,212,255,1) 100%); 
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(26,48,78,0.86) 37%, rgba(0,212,255,1) 100%); 
     line-height: 1.3em;
 }
 #body {
