@@ -237,12 +237,15 @@ ul {
 
 @media (max-width: 500px){
 
+    #body * {
+        margin: 0;
+        padding: 0;
+    }
+
     #body {
         width: 100vw;
         flex-direction: column;
-        align-items: center;
-        margin: 0;
-        padding: 0;
+        align-content: center;
     }
 
     #left-side {
@@ -267,26 +270,37 @@ ul {
     #right-side {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 100vw;
         align-items: center;
     }
 
     #main-field {
-        width: 100%;
-        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 5%;
+        padding: 10px;
     }
 
     #mf-bottom {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
         justify-content: start;
     }
 
     #mfb-top {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
         margin: 0;
         padding: 0;
     }
 
     #mfbt-left {
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
         padding: 10px;
         margin: 0;
     }
@@ -296,12 +310,17 @@ ul {
     }
 
     #mfb-bottom {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
         margin: 0;
         padding: 0;
     }
 
     #mfbb-left {
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
         padding: 10px;
         margin: 0;
     }
@@ -315,21 +334,31 @@ ul {
     }
 
     #index-top {
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 90vw;
     }
 
     #index-bottom {
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 90vw;
         margin-top: 20px;
         padding: 10px;
     }
 
     #project-top {
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
     }
 
     #project-bottom {
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
         margin-top: 20px;
         padding: 10px;
     }
